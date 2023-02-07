@@ -1,0 +1,7 @@
+version: '2'
+syncs:
+  magento-framework:
+    #notify_terminal: true
+    src: '../magento_v2_migrated'
+    sync_strategy: 'unison'
+    sync_excludes: ['.git', '.github', '.gitignore', 'var/**']
